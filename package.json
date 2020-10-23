@@ -1,0 +1,14 @@
+{
+  "name": "basicbank",
+  "version": "1.0.0",
+  "description": "basic bank operation",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "satish",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.0-nightly.429"
+  }
+}
