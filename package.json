@@ -4,7 +4,8 @@
   "description": "basic bank operation",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "test": "yarn cypress run"
   },
   "author": "satish",
   "license": "ISC",
