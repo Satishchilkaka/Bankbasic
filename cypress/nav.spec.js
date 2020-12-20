@@ -4,8 +4,8 @@ describe('basic bank navigation', () => {
             cy.visit('/');
           });
 
-          it('it should navigate', () =>{
-              
+          it('it should navigate to', () =>{
+
           })
 
 })
