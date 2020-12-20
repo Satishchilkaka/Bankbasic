@@ -7,6 +7,11 @@ backend:
         - amplifyPush --simple
 frontend:
   phases:
+    prebuild: 
+      commands:
+        - npm install
+        - yarn import
+
     build:
       commands:
         - yarn install
