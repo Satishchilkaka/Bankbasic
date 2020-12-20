@@ -10,5 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.0.0-nightly.429"
+  },
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^4.1.0",
+    "start-server-and-test": "^1.11.6"
   }
 }
