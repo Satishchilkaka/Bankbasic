@@ -10,7 +10,7 @@
   "author": "satish",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.0.0-nightly.429"
+    "parcel": "^1.12.4"
   },
   "devDependencies": {
     "cypress": "^6.1.0",
