@@ -6,7 +6,7 @@ describe('basic bank navigation', () => {
 
           it('it should navigate to', () =>{
             cy.get('.btn--text').click()
-            cy.get('.section__header').e(0).should('have.text', 'Everything you need in a modern bank and more.')
+            cy.get('.section__header').eq(0).click()
 
 
           })
