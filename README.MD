@@ -2,7 +2,7 @@
 
 This is a sample repository for end-to-end tests running basic sample project againt staging ENV. It uses Node and cypress
 
-
+1. run: docker build --tag <imageName> .
 # Installation
 
 ## System requirements:
