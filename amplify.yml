@@ -9,9 +9,7 @@ frontend:
   phases:
     prebuild: 
       commands:
-        - npm install
-        - yarn import
-
+        - yarn start
     build:
       commands:
         - yarn install
