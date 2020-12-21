@@ -5,6 +5,7 @@ describe('basic bank navigation', () => {
           });
 
           it('it should navigate to', () =>{
+            cy.wait(4000)
 
           })
 

@@ -32,7 +32,6 @@ test:
   phases:
     preTest:
       commands:
-        - yarn install
         - npm install wait-on
         - "npm start & npx wait-on http://localhost:1234"
 
