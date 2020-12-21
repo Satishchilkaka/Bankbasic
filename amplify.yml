@@ -16,7 +16,7 @@ frontend:
       commands:
         - yarn install
   artifacts:
-    baseDirectory: app
+    baseDirectory: build
     files:
       - "**/*"
   cache:
