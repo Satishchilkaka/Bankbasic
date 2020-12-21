@@ -35,10 +35,10 @@ test:
         - yarn install
         - npm install wait-on
         - "npm start & npx wait-on http://localhost:1234"
-        - npm install mocha mochawesome mochawesome-merge mochawesome-report-generator
+
     test:
       commands:
         - yarn test
     postTest:
       commands:
-        - npx mochawesome-merge@4 cypress/report/mochawesome-report/*.json > cypress/report/mochawesome.json
+        - echo done

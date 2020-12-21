@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "test": "yarn cypress run --spec 'cypress/integration/nav.spec.js' --record --key 5c8b5aab-9066-4300-95c8-6ab85bab7096"
+    "test": "yarn cypress run --spec 'cypress/integration/nav.spec.js' --record --key e1f4da04-7a9e-48c7-9c1c-30170f4d6515"
   },
   "author": "satish",
   "license": "ISC",
