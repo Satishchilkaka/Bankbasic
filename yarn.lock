@@ -968,7 +968,7 @@
   integrity sha512-od+uCtCxC/KoNQAIE1vWx1YTyKYY+7CTrxBJPRh3cDWw/C0tCtlBMVlrbplscGoEpt6B27KhJDCv82PBxOERNA==
   dependencies:
     "@parcel/utils" "^1.11.0"
-    chokidar "^2.1.5"
+    chokidar "^3.4.2"
 
 "@parcel/workers@^1.11.0":
   version "1.11.0"
@@ -1659,7 +1659,7 @@ chokidar@3.4.3:
   optionalDependencies:
     fsevents "~2.1.2"
 
-chokidar@^2.1.5:
+chokidar@^3.4.2:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
   integrity sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
