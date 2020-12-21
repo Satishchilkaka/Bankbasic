@@ -7,12 +7,9 @@ backend:
         - amplifyPush --simple
 frontend:
   phases:
-    prebuild: 
-      commands:
-        - yarn start
     build:
       commands:
-        - yarn install
+        - yarn start
   artifacts:
     baseDirectory: /app
     files:
@@ -30,6 +27,7 @@ test:
   phases:
     preTest:
       commands:
+        - yarn
         - yarn add wait-on
         - "npm start & npx wait-on http://localhost:1234/"
     test:
