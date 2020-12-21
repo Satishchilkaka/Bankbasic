@@ -7,11 +7,6 @@ backend:
         - amplifyPush --simple
 frontend:
   phases:
-    prebuild: 
-      commands:
-        - npm install
-        - yarn import
-
     build:
       commands:
         - yarn install
@@ -34,7 +29,6 @@ test:
       commands:
         - npm install wait-on
         - "npm start & npx wait-on http://localhost:1234"
-
     test:
       commands:
         - yarn test
