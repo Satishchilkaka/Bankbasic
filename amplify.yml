@@ -16,7 +16,7 @@ frontend:
       commands:
         - yarn install
   artifacts:
-    baseDirectory: build
+    baseDirectory: app
     files:
       - "**/*"
   cache:
@@ -39,5 +39,6 @@ test:
     test:
       commands:
         - yarn test
-        - echo running test
-        - echo test complited
+    postTest:
+      commands:
+        - echo Test DONE
