@@ -5,8 +5,14 @@ describe('basic bank navigation', () => {
           });
 
           it('it should navigate to', () =>{
-            cy.wait(4000)
+            cy.get('.btn--text').click()
+            cy.get('.section__header').e(0).should('have.text', 'Everything you need in a modern bank and more.')
 
+
+          })
+
+          it('should navigate', () => {
+            cy.wait(1000)
           })
 
 })
