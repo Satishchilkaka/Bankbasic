@@ -4,7 +4,7 @@
   "description": "basic bank operation",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel app/index.html",
     "test": "yarn cypress run --spec 'cypress/integration/nav.spec.js' --record --key e1f4da04-7a9e-48c7-9c1c-30170f4d6515"
   },
   "author": "satish",

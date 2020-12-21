@@ -14,7 +14,7 @@ frontend:
       commands:
         - yarn install
   artifacts:
-    baseDirectory: app
+    baseDirectory: /app
     files:
       - "**/*"
   cache:
@@ -31,7 +31,7 @@ test:
     preTest:
       commands:
         - yarn add wait-on
-        - "npm start & npx wait-on http://localhost:1234"
+        - "npm start & npx wait-on http://localhost:1234/"
     test:
       commands:
         - yarn test
