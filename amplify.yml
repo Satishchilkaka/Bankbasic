@@ -34,8 +34,8 @@ test:
       commands:
         - yarn install
         - npm install wait-on
-        - npm install mocha mochawesome mochawesome-merge mochawesome-report-generator
         - "npm start & npx wait-on http://localhost:1234"
+        - npm install mocha mochawesome mochawesome-merge mochawesome-report-generator
     test:
       commands:
         - yarn test
