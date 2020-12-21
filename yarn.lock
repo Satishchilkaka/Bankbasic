@@ -1676,7 +1676,7 @@ chokidar@^2.1.5:
     readdirp "^2.2.1"
     upath "^1.1.1"
   optionalDependencies:
-    fsevents "^1.2.7"
+    fsevents "^2.1.2"
 
 ci-info@^2.0.0:
   version "2.0.0"
