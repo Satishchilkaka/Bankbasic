@@ -1,7 +1,11 @@
-FROM node:12.16.3
+FROM node:12-alpine
+
  WORKDIR /
- ENV PORT 80
+
  COPY . .
+
  RUN yarn install
 
- CMD ["node", "yarn start"]
+ COPY . /code
+
+ CMD ["node","yarn parcel app/index.html"]
