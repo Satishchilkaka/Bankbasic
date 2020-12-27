@@ -10,6 +10,7 @@
   "author": "satish",
   "license": "ISC",
   "dependencies": {
+    "node-forge": "^0.10.0",
     "parcel": "^1.12.4"
   },
   "devDependencies": {
